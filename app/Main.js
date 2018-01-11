@@ -55,7 +55,7 @@ class Main extends Component {
             mainContent = <Spinner/>;
         }
         else if(!this.props.data[0]) {
-            mainContent = <Button full light onPress={this.props.fetchData}><Text>Load</Text></Button>;
+            mainContent = <Button full light onPress={this.props.fetchData}><Text>Find Restaurants Nearby..</Text></Button>;
         }
         else{
             mainContent = <MasterList/>;
